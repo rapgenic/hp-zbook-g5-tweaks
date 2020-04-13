@@ -8,7 +8,7 @@ arch=('any')
 url="https://github.com/rapgenic/hp-zbook-g5-tweaks"
 license=('GPL2')
 source=("https://github.com/rapgenic/${pkgname}/archive/${pkgver}.zip")
-md5sums=('0e0fd9c4d0f424029f599b5fd92d2f73')
+md5sums=('0f8dca97066ab147236bc25ec4713a93')
 
 package() {
   install -Dm0755 "$srcdir/${pkgname}-${pkgver}/sound/firmware/hpzbsg5.fw" "$pkgdir/usr/lib/firmware/hpzbsg5.fw"
