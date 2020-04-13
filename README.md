@@ -5,6 +5,7 @@ This repository hosts a few linux fixes i needed to make my ZBook Studio G5 work
 See the individual READMEs in subfolders for more information about:
 
 * [Sound codec](sound/README.md)
+* [Input devices](input/README.md)
 
 # Installation
 
